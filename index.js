@@ -12,7 +12,8 @@ function writeCards(array1,eventName){
 
 //console.log(writeCards(people, 'Wedding'))
 
-function countDown(x){
+function countDown(y){
+    let x = y
     while( x >= 0){
         console.log(x--)
     }
